@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenland Integrated Farms - Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="container header-container">
+        <div class="logo">
+            <div class="logo-img">GIF</div>
+            <div class="logo-text">Greenland <span>Farms</span></div>
+        </div>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="section services-section">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="services-card">
+                <img src="images/crop2.jpg" alt="Crop Production">
+                <h3>Crop Production</h3>
+                <p>High-quality vegetables, grains, and fruits using sustainable farming practices.</p>
+            </div>
+            <div class="services-card">
+                <img src="images/apiary1.jpg" alt="Apiary">
+                <h3>Apiary</h3>
+                <p>Organic honey and beeswax products from our carefully managed bee farms.</p>
+            </div>
+            <div class="services-card">
+                <img src="images/cattle3.jpg" alt="Animal Farming">
+                <h3>Animal Farming</h3>
+                <p>Free-range poultry, livestock, and organic dairy products.</p>
+            </div>
+            <div class="services-card">
+                <img src="images/aqua1.jpg" alt="Fish Farming">
+                <h3>Fish Farming</h3>
+                <p>Freshwater fish farming to provide sustainable protein sources for the community.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-container">
+        <div class="footer-col">
+            <h3>Greenland Intergrated Farms</h3>
+            <p>Empowering farmers and promoting sustainable agriculture.</p>
+        </div>
+        
+    </div>
+</footer>
+
+<script>
+const menu = document.getElementById('mobile-menu');
+const nav = document.querySelector('nav ul');
+menu.addEventListener('click', () => { nav.classList.toggle('show'); });
+</script>
+</body>
+</html>

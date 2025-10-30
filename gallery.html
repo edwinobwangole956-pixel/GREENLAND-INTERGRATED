@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenland Integrated Farms - Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="container header-container">
+        <div class="logo">
+            <div class="logo-img">GIF</div>
+            <div class="logo-text">Greenland <span>Farms</span></div>
+        </div>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="section gallery-section">
+    <div class="container">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-grid">
+            <div class="services-card"><img src="images/cattle1.jpg" alt="Gallery 1"></div>
+            <div class="services-card"><img src="images/cattle2.jpg" alt="Gallery 2"></div>
+            <div class="services-card"><img src="images/apiary4.jpg" alt="Gallery 3"></div>
+            <div class="services-card"><img src="images/apiary3.jpg" alt="Gallery 4"></div>
+            <div class="services-card"><img src="images/apiary2.jpg" alt="Gallery 5"></div>
+            <div class="services-card"><img src="images/crop12.jpg" alt="Gallery 6"></div>
+            <div class="services-card"><img src="images/crop3.jpg" alt="Gallery 7"></div>
+            <div class="services-card"><img src="images/crop7.jpg" alt="Gallery 8"></div>
+            <div class="services-card"><img src="images/crop1.jpg" alt="Gallery 9"></div>
+            <div class="services-card"><img src="images/crops.jpg" alt="Gallery 10"></div>
+            <div class="services-card"><img src="images/crop8.jpg" alt="Gallery 11"></div>
+            <div class="services-card"><img src="images/poultry2.jpg" alt="Gallery 12"></div>
+            <div class="services-card"><img src="images/poultry3.jpg" alt="Gallery 13"></div>
+            <div class="services-card"><img src="images/poultry1.jpg" alt="Gallery 14"></div>
+            <div class="services-card"><img src="images/piggery2.jpg" alt="Gallery 15"></div>
+            <div class="services-card"><img src="images/piggery1.jpg" alt="Gallery 16"></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-container">
+        <div class="footer-col">
+            <h3>Greenland Intergrated Farms</h3>
+            <p>Empowering farmers and promoting sustainable agriculture.</p>
+        </div>
+        <div class="footer-col">
+            
+    </div>
+</footer>
+
+<script>
+const menu = document.getElementById('mobile-menu');
+const nav = document.querySelector('nav ul');
+menu.addEventListener('click', () => { nav.classList.toggle('show'); });
+</script>
+</body>
+</html>

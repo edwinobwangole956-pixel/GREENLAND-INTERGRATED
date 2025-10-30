@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenland Integrated Farms - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="container header-container">
+        <div class="logo">
+            <div class="logo-img">GIF</div>
+            <div class="logo-text">Greenland <span>Farms</span></div>
+        </div>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="section contact-section">
+    <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="#">
+                    <label for="your Name">FULLNAME</label><BR>
+                    <input type="text" placeholder="Your Name" required><BR>
+                    <label for="EMAIL">E-MAIL</label><BR>
+                    <input type="email" placeholder="Your Email" required><BR>
+                    <label for="your Name">FULLNAME</label><BR>
+                    <textarea placeholder="Your Message" rows="6" required></textarea><BR>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div>+256 781938977</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div>info@greenlandfarm.com</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>Katakwi, Uganda</div>
+                </div>
+                <a href="https://wa.me/256 781938977" class="whatsapp-btn"><i class="fab fa-whatsapp"></i>&nbsp; WhatsApp Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-container">
+        <div class="footer-col">
+            <h3>Greenland Intergrated Farms</h3>
+            <p>Empowering farmers and promoting sustainable agriculture.</p>
+        </div>
+       
+    </div>
+</footer>
+
+<script>
+const menu = document.getElementById('mobile-menu');
+const nav = document.querySelector('nav ul');
+menu.addEventListener('click', () => { nav.classList.toggle('show'); });
+</script>
+</body>
+</html>

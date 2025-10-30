@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenland Integrated Farms - About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="container header-container">
+        <div class="logo">
+            <div class="logo-img">GIF</div>
+            <div class="logo-text">Greenland <span>Farms</span></div>
+        </div>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="section about-section">
+    <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/home2.jpg" alt="Greenland Farm" width="300">
+            </div>
+            <div class="about-text">
+                <p>Greenland Integrated Farm is a leading sustainable farm specializing in crop production, apiary, animal, and fish farming.</p></br>
+
+                <p>Our mission is to provide high-quality, organic products while supporting local communities and promoting modern farming techniques.</p></br>
+
+                <p>We have a vision to create a farm that is innovative, productive, and eco-friendly.</p></br>
+                <p>Our team of experts ensures that each project is handled with care, from planting to harvesting, and delivering fresh, healthy produce to our clients.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-container">
+        <div class="footer-col">
+            <h3>Greenland Intergrated Farms</h3>
+            <p>Empowering farmers and promoting sustainable agriculture.</p>
+        </div>
+
+    </div>
+</footer>
+
+<script>
+const menu = document.getElementById('mobile-menu');
+const nav = document.querySelector('nav ul');
+menu.addEventListener('click', () => { nav.classList.toggle('show'); });
+</script>
+</body>
+</html>
